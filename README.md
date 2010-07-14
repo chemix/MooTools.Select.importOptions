@@ -3,6 +3,9 @@ MooTools-Select.importData
 
 Simple way to add new options to select element
 
+![Screenshot](http://github.com/chemix/MooTools.Select.importOptions/raw/master/logo.png)
+
+
 How to Use
 -----------------
 importOptions() & refreshOptions()
