@@ -3,8 +3,9 @@ MooTools-Select.importData
 
 Simple way to add new options to select element
 
-How to use importOptions() & refreshOptions()
+How to Use
 -----------------
+importOptions() & refreshOptions()
 
 ### Syntax
     data_01 = {
