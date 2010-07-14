@@ -32,3 +32,8 @@ How to use importOptions() & refreshOptions()
 ### Arguments
 
 1. data: (*object*,*array*) Source data
+
+
+### Demo
+
+[http://mootools.net/shell/4DmYx/1/](http://mootools.net/shell/4DmYx/1/)
