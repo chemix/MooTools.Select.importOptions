@@ -50,7 +50,7 @@ Element.implement({
         else data = $H(data);
 
 		data.each(function(item, index) {
-            opt = new Element("option");
+            var opt = new Element("option");
             opt.set('value', index);
             if ( typeOf(item) === 'object' ) {
                 item = $H(item);
@@ -71,10 +71,10 @@ Element.implement({
         if ( this.get('tag') != 'select') return false;
 		var tmpSelect = this.getSelected().get('value').toString();
         this.empty();
-        this.importOptions(data)
+        this.importOptions(data);
 
         // set previous Option selected if possible
-        reSelect = this.getElement('option[value='+tmpSelect+']');
+        var reSelect = this.getElement('option[value='+tmpSelect+']');
 		if (reSelect){
 			reSelect.set('selected','selected');
 		}
