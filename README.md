@@ -3,7 +3,7 @@ MooTools-Select.importData
 
 Simple way to add new options to select element
 
-![Screenshot](http://github.com/chemix/MooTools.Select.importOptions/raw/master/logo.png)
+![Screenshot](https://raw.githubusercontent.com/chemix/MooTools.Select.importOptions/master/logo.png)
 
 
 How to Use
@@ -37,8 +37,3 @@ importOptions() & refreshOptions()
 ### Arguments
 
 1. data: (*object*,*array*) Source data
-
-
-### Demo
-
-[http://mootools.net/shell/4DmYx/1/](http://mootools.net/shell/4DmYx/1/)
